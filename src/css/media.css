@@ -1,0 +1,543 @@
+@media screen and (max-width: 1300px) {
+  .topnav ul {
+    display: none;
+  }
+  .topnav .btn-bank {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive ul {
+    display: block;
+    position: absolute;
+    right: -10px;
+    padding: 10px 20px;
+    background: #fbfbff;
+    width: 137px;
+    border-radius: 15px;
+    text-align: left;
+    margin: 0;
+    transition: 0.5s;
+    margin-top: 2%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08),
+      0px 2px 4px rgba(187, 187, 187, 0.2);
+  }
+  .topnav.responsive li {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .topnav.responsive .btn-bank-menu {
+    float: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #f5f4ff;
+    border: 1px solid #003cff;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    background: #003cff;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+
+  .grid-container {
+    grid-template-areas:
+      "text1 text1 "
+      "card1 card2 "
+      "card3 card4 ";
+    text-align: center;
+  }
+
+  .features {
+    padding-top: 4%;
+  }
+
+  .features li {
+    padding-left: 10%;
+  }
+
+  .main-currency th {
+    padding-right: 15px;
+    padding-bottom: 32px;
+  }
+
+  .dom {
+    padding-left: 35%;
+    padding-top: 16%;
+  }
+
+  .btn-title {
+    margin-bottom: 2%;
+  }
+
+  .support form {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .pagination {
+    padding-right: 0;
+  }
+
+  .item7-apply img {
+    height: 200px;
+  }
+  .apply-t {
+    font-size: 16px;
+  }
+  .apply-subtitle {
+    padding-right: 7%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+  }
+
+  .item3-form {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .container {
+    max-width: 920px;
+  }
+
+  .grid-container {
+    grid-gap: 2%;
+    grid-template-rows: 250px 150px 150px;
+  }
+
+  .btn-title {
+    font-size: 14px;
+  }
+
+  .grid-container img {
+    width: 80%;
+  }
+
+  .grid-container p {
+    font-size: 40px;
+  }
+
+  .grid-features {
+    grid-template-areas:
+      "main main"
+      "menu menu";
+  }
+
+  .features svg {
+    padding-top: 2%;
+  }
+
+  .features-title {
+    font-size: 30px;
+  }
+
+  .grid-currency {
+    grid-template-areas:
+      "menu header"
+      "footer footer"
+      "main main";
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2%;
+  }
+
+  .update {
+    font-size: 14px;
+    padding-top: 0;
+    padding-left: 5%;
+    padding-bottom: 5%;
+  }
+
+  .currency-data {
+    font-size: 16px;
+  }
+
+  .dom {
+    padding-left: 20%;
+    padding-top: 15%;
+    padding-bottom: 10%;
+  }
+
+  .dom svg {
+    width: 50%;
+  }
+
+  .support form {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .email {
+    height: 69.84px;
+    width: 45%;
+    font-size: 14px;
+    padding-right: 170px;
+  }
+
+  .support {
+    margin-bottom: 10%;
+  }
+
+  .btn-support {
+    width: 130.48px;
+    height: 34.92px;
+    font-size: 14px;
+    padding: 4px;
+    margin-top: 20px;
+    margin-left: -164px;
+    background-position: 13px;
+  }
+
+  footer {
+    height: 462px;
+    margin-top: 10%;
+  }
+
+  footer img {
+    padding: 35px 0 0 15%;
+  }
+
+  .phone {
+    font-size: 16px;
+    padding-right: 13%;
+    bottom: 14%;
+  }
+
+  .info {
+    font-size: 12px;
+    bottom: 16%;
+    padding-right: 13%;
+  }
+
+  .apply-title {
+    font-size: 26px;
+  }
+
+  .item7-apply img {
+    height: 100px;
+    padding-top: 40%;
+  }
+  .apply-t {
+    font-size: 14px;
+    padding-right: 6%;
+  }
+  .apply-g {
+    font-size: 14px;
+    padding-right: 6%;
+  }
+
+  .btn-apply {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .apply-subtitle {
+    padding-right: 7%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    font-size: 14px;
+  }
+  .tabs {
+    font-size: 14px;
+  }
+
+  .grid-cardup h1 {
+    font-size: 16px;
+    margin: 1% 0;
+  }
+  .grid-cardup img {
+    height: 30px;
+  }
+
+  .grid-carddown h1 {
+    font-size: 16px;
+    margin: 1% 0;
+  }
+  .grid-carddown p {
+    font-size: 14px;
+  }
+  .grid-carddown img {
+    height: 30px;
+  }
+
+  .grid-cardup p {
+    font-size: 14px;
+  }
+
+  .item3-form {
+    font-size: 12px;
+  }
+  .formCard form {
+    grid-template-areas:
+      "amount amount"
+      "chosen chosen"
+      "contact contact";
+    grid-template-columns: auto;
+    grid-row-gap: 1%;
+    grid-column-gap: auto;
+  }
+
+  .item1-form {
+    border-right: none;
+    border-bottom: 1px dashed rgba(128, 128, 128, 0.4);
+  }
+
+  .content-form {
+    grid-template-areas:
+      "lastname "
+      "firstname"
+      "patronymic"
+      "item"
+      "email"
+      "date"
+      "passports"
+      "passportn";
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    padding: 0% 5%;
+  }
+  .item3-form input {
+    width: 90%;
+  }
+
+  .btn-form {
+    margin-bottom: 10%;
+  }
+
+  .content-form div {
+    margin-top: 2%;
+  }
+  .table-rates {
+    font-size: 14px;
+  }
+
+  .grid-cashback {
+    font-size: 12px;
+  }
+
+  .grid-cashback h1 {
+    margin: 4% 5%;
+  }
+
+  .styles_faq-row-wrapper__3vA1D h2 {
+    font-size: 26px !important;
+  }
+
+  .styles_faq-row-wrapper__3vA1D
+    .styles_row-body__1NvUo
+    .styles_faq-row__2YF3c
+    .styles_row-title__1YiiY
+    .styles_row-title-text__1MuhU {
+    font-size: 14px !important;
+  }
+
+  .grid-steps {
+    font-size: 14px;
+  }
+
+  .formCard h1 {
+    font-size: 20px;
+    padding-right: 2%;
+  }
+
+  .form-text p {
+    font-size: 14px;
+    padding: 10px;
+  }
+  .item2-form label {
+    font-size: 14px;
+  }
+
+  .item2-form input {
+    width: 70%;
+  }
+
+  .item2-form {
+    padding-left: 8%;
+  }
+  .slider p {
+    font-size: 14px;
+  }
+  .item3-form h2 {
+    font-size: 20px;
+    padding-left: 5%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .grid-container p {
+    font-size: 32px;
+  }
+
+  .grid-container {
+    grid-template-rows: 250px 120px 120px;
+  }
+
+  .grid-container img {
+    width: 100%;
+  }
+
+  .features li {
+    padding-left: 19%;
+  }
+
+  .currency-title {
+    font-size: 26px;
+  }
+
+  .currency-data {
+    display: flex;
+    width: 250px;
+  }
+  .money {
+    font-size: 14px;
+    padding-left: 3%;
+  }
+
+  .gray {
+    font-size: 14px;
+    padding-left: 3%;
+  }
+
+  .update {
+    font-size: 14px;
+    width: 80%;
+    padding-top: 10%;
+  }
+
+  .title-map {
+    font-size: 26px;
+  }
+
+  .title-news {
+    font-size: 26px;
+  }
+
+  .subtitle-support {
+    font-size: 26px;
+  }
+
+  .bank-news {
+    font-size: 26px;
+  }
+
+  .email {
+    height: 49.84px;
+    width: 50%;
+    font-size: 14px;
+    padding-right: 64px;
+  }
+
+  .support {
+    margin-bottom: 10%;
+  }
+
+  .btn-support {
+    width: 50.48px;
+    height: 34.92px;
+    font-size: 14px;
+    padding: 4px;
+    color: transparent;
+    margin-top: 20px;
+    margin-left: -64px;
+    background-position: 13px;
+  }
+
+  footer img {
+    padding: 30px 0 0 10%;
+  }
+
+  .phone {
+    padding-right: 10%;
+    bottom: 14%;
+  }
+
+  .info {
+    bottom: 16%;
+    padding-right: 10%;
+  }
+
+  .links-footer {
+    padding-left: 9%;
+    padding-right: 9%;
+    padding-top: 5%;
+  }
+
+  .line {
+    max-width: 75%;
+    margin-left: 10%;
+  }
+
+  .text {
+    width: 75%;
+    margin-left: 10%;
+    width: 80%;
+  }
+
+  .grid-apply {
+    grid-template-areas:
+      "title title title title"
+      "subt subt subt subt"
+      "pers pers pers img"
+      "limit limit limit img"
+      "service service service img"
+      "but but but but";
+    grid-template-columns: auto;
+    overflow: hidden;
+  }
+
+  .item7-apply img {
+    padding-top: 14%;
+    height: 80px;
+    padding-left: 20%;
+  }
+  .btn-apply {
+    padding: 8px;
+  }
+
+  .tabs {
+    font-size: 12px;
+  }
+
+  .grid-cardup {
+    grid-template-areas:
+      "one"
+      "two"
+      "three";
+    grid-template-columns: auto;
+    grid-template-rows: 30% 30% 30%;
+  }
+
+  .grid-carddown {
+    grid-template-areas:
+      "four"
+      "five";
+    grid-template-columns: auto;
+    grid-template-rows: 50% 50%;
+    grid-gap: 3%;
+    justify-content: center;
+  }
+}
