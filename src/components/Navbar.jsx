@@ -17,6 +17,7 @@ function Navbar() {
         <Link className="active" Link to="/">
           NeoBank
         </Link>
+        
         <div className="nav-links">
           <ul>
             <li>
@@ -42,7 +43,7 @@ function Navbar() {
           Online Bank
         </Link>
         <Link className="icon" onClick={myFunction}>
-          <img src="./images/menu.png" alt="" width="30px" height="30px" />
+          <img src="/images/menu.png" alt="" width="30px" height="30px" />
         </Link>
       </nav>
     </>

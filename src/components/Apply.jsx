@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 function Apply() {
   const ref = useRef(null);
+  const step = localStorage.getItem("formStep");
 
   const HandleScroll = () => {
     window.scrollTo({
@@ -11,6 +12,15 @@ function Apply() {
       behavior: "smooth",
     });
   };
+
+ const renderSwitch = (step) => {
+  switch(step) {
+    case '0':
+      return 'Apply for card';
+    case '1':
+      return 'Choose the offer';
+  }
+}
 
   return (
     <>
@@ -45,7 +55,8 @@ function Apply() {
           </div>
           <div className="item6-apply">
             <button className="btn-apply" onClick={HandleScroll}>
-              Apply for card
+            {renderSwitch(step)}
+              
             </button>
           </div>
           <div className="item7-apply">

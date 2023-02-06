@@ -1,5 +1,5 @@
 import React from "react";
-import FormPrescoring from "./FormPrescoring";
+import FormPrescoring from "./Form/FormPrescoring";
 
 function Prescoring() {
   return (
@@ -27,7 +27,6 @@ function Prescoring() {
           </p>
         </div>
       </div>
-
       <FormPrescoring />
     </>
   );

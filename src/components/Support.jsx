@@ -15,18 +15,21 @@ function Support() {
 
   const onSubmit = (data) => {
     fetch(
-      "http://localhost:8080/email" /* https://63d23c0c1780fd6ab9bfdcda.mockapi.io/email/email */,
+      "http://localhost:8080/email",
       {
         method: "POST",
+        mode: "cors",
+    headers: {
+        "Content-Type": "application/json",
+    },
         body: JSON.stringify(data),
       }
     ).catch((err) => {
       if (err) {
-        ref.current.innerHTML = "<p>Something wrong, try again</p>";
+        ref.current.innerHTML = "<p>Something wrong, try again later</p>";
         localStorage.clear();
       }
     });
-
     localStorage.setItem("email", true);
     ref.current.innerHTML =
       "<p>You are already subscribed to the bank's newsletter</p>";

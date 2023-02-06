@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 function Footer() {
   return (
-    <>
-      <img src="./assets/logo.svg" />
+    <footer>
+      <img src="/assets/logo.svg" />
       <p className="phone">+7 (495) 984 25 13</p>
       <p className="info">info@neoflex.ru</p>
 
@@ -53,7 +53,7 @@ function Footer() {
           use cookies, please change your browser settings
         </p>
       </div>
-    </>
+    </footer>
   );
 }
 
