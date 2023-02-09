@@ -1,0 +1,82 @@
+.item1-features {
+  grid-area: menu;
+}
+.item2-features {
+  grid-area: main;
+}
+
+.grid-features {
+  display: grid;
+  grid-template-areas: "menu main";
+  grid-template-columns: 40% 55%;
+  grid-column-gap: 5%;
+  overflow: hidden;
+}
+
+.features svg {
+  padding-top: 9%;
+}
+
+.features-title {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 50px;
+  color: #0b132a;
+  margin-top: 11%;
+  margin-bottom: 20px;
+}
+
+.features-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 5%;
+}
+
+.features li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  margin-bottom: 12px;
+  color: #4f5665;
+  list-style: none; /* Убираем исходные маркеры */
+  background: url(/public/images/success.png) no-repeat; /* Параметры фона */
+  padding-left: 8%;
+}
+
+.features ul {
+  padding: 0%;
+}
+
+@media screen and (max-width: 1300px) {
+  .features {
+    padding-top: 4%;
+  }
+
+  .features li {
+    padding-left: 10%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .grid-features {
+    grid-template-areas:
+      "main main"
+      "menu menu";
+  }
+
+  .features svg {
+    padding-top: 2%;
+  }
+
+  .features-title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .features li {
+    padding-left: 19%;
+  }
+}

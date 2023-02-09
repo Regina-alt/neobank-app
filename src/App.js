@@ -2,15 +2,15 @@ import "./css/App.css";
 import "./css/media.css";
 import { Routes, Route, useParams } from "react-router-dom";
 
-import Navbar from "./components/Navbar";
-import NotFound from "./components/NotFound";
+import Navbar from "./components/Navbar/Navbar";
+import NotFound from "./components/NotFound/NotFound";
 import Home from "./pages/Home";
 import Loan from "./pages/Loan";
-import Footer from "./components/Footer";
-import Scoring from "./pages/Scoring";
-import Document from "./pages/Document";
-import Sign from "./pages/Sign";
-import Code from "./pages/Code";
+import Footer from "./components/Footer/Footer";
+import Scoring from "./pages/Scoring/Scoring";
+import Document from "./pages/Document/Document";
+import Sign from "./pages/Sign/Sign";
+import Code from "./pages/Code/Code";
 
 function App() {
   return (

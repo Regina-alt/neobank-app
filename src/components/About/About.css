@@ -1,0 +1,158 @@
+/* Tabs */
+
+.bloc-tabs {
+  display: flex;
+  margin-top: 4%;
+}
+.tabs {
+  padding: 1%;
+  cursor: pointer;
+  border-bottom: 2px solid rgba(128, 128, 128, 0.2);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #7b7454;
+}
+
+.active-tabs {
+  border-bottom: 2px solid #7b7454;
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+}
+
+.content {
+  display: none;
+}
+.active-content {
+  display: block;
+}
+
+/* Card */
+
+.item1-card {
+  grid-area: one;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item2-card {
+  grid-area: two;
+  background: rgba(127, 146, 172, 0.7);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item3-card {
+  grid-area: three;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+
+.grid-cardup {
+  display: grid;
+  grid-template-areas: "one two three";
+  grid-template-columns: 31% 31% 31%;
+  grid-gap: 3%;
+  justify-content: center;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+.item4-card {
+  grid-area: four;
+  background: rgba(127, 146, 172, 0.7);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item5-card {
+  grid-area: five;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+
+.grid-carddown {
+  display: grid;
+  grid-template-areas: "four five";
+  grid-template-columns: 48% 48%;
+  grid-gap: 3%;
+  justify-content: center;
+}
+
+/* Rates */
+
+.table-rates td {
+  border-bottom: 1px solid #7f92ac;
+  padding: 2%;
+}
+
+/* Cashback */
+
+.item1-cashback {
+  grid-area: cash1;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item2-cashback {
+  grid-area: cash2;
+  background: rgba(136, 179, 184, 0.6);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+
+.item3-cashback {
+  grid-area: cash3;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item4-cashback {
+  grid-area: cash4;
+  background: rgba(136, 179, 184, 0.6);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item5-cashback {
+  grid-area: cash5;
+  background: #eaecee;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+.item6-cashback {
+  grid-area: cash6;
+  background: rgba(136, 179, 184, 0.6);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  padding: 4%;
+}
+
+.grid-cashback {
+  display: grid;
+  grid-template-areas:
+    "cash1 cash2 cash3"
+    "cash4 cash5 cash6";
+  grid-template-columns: 31% 31% 31%;
+  grid-row-gap: 10%;
+  grid-column-gap: 3%;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.faq {
+  margin-top: 4%;
+}

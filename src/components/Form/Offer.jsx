@@ -1,3 +1,4 @@
+import "./Form.css";
 import React, { useState } from "react";
 import Result from "./Result";
 import { Audio } from "react-loader-spinner";

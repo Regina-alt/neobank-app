@@ -1,0 +1,151 @@
+.header {
+  width: 100%;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0px auto;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+.icon {
+  display: none;
+}
+.btn-bank-menu {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 112%;
+  letter-spacing: 0.02em;
+  padding: 3px;
+  color: #b4387a;
+  text-decoration: none;
+}
+
+.nav-links {
+  flex: 1;
+  padding-left: 13%;
+  padding-right: 13%;
+}
+
+.nav-links ul {
+  padding-left: 3%;
+  padding-right: 3%;
+  text-align: center;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1% 2%;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: #1d1929;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 112%;
+}
+
+.nav-links ul li a:hover {
+  color: #b2a35f;
+  transition: 0.3s;
+}
+
+.nav-links .active {
+  color: #b2a35f;
+}
+
+.btn-bank {
+  display: inline-block;
+  text-decoration: none;
+  color: #f5f4ff;
+  border: 1px solid #003cff;
+  padding: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  background: #003cff;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.btn-bank:hover {
+  border: 1px solid #003cff;
+  background: #f5f4ff;
+  color: #003cff;
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 1300px) {
+  .topnav ul {
+    display: none;
+  }
+  .topnav .btn-bank {
+    display: none;
+  }
+
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .topnav.responsive ul {
+    display: block;
+    position: absolute;
+    right: -10px;
+    padding: 10px 20px;
+    background: #fbfbff;
+    width: 137px;
+    border-radius: 15px;
+    text-align: left;
+    margin: 0;
+    transition: 0.5s;
+    margin-top: 2%;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08),
+      0px 2px 4px rgba(187, 187, 187, 0.2);
+  }
+  .topnav.responsive li {
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+
+  .topnav.responsive .btn-bank-menu {
+    float: none;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #f5f4ff;
+    border: 1px solid #003cff;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    background: #003cff;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+}

@@ -1,0 +1,335 @@
+/* form */
+.item1-form {
+  grid-area: amount;
+  border-right: 1px dashed rgba(128, 128, 128, 0.4);
+}
+
+.form-text {
+  display: flex;
+  justify-content: space-between;
+}
+.form-text p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  padding: 4%;
+}
+
+.slider p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  padding-left: 4%;
+}
+.slider {
+  border: 1px solid #5b35d5;
+  border-radius: 10px;
+  margin: 4%;
+}
+
+.item2-form {
+  grid-area: chosen;
+  padding-top: 6%;
+}
+
+.item2-form label {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.item2-form input {
+  margin-top: 4%;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.item3-form {
+  grid-area: contact;
+}
+
+.item3-form input {
+  background: #f9f5e3;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 3%;
+  width: 75%;
+}
+
+.item3-form input:focus {
+  border: 2px solid #5b35d5 !important;
+}
+
+.item3-form h2 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  padding-left: 2%;
+  padding-bottom: 1%;
+}
+
+.form-pre {
+  display: grid;
+  grid-template-areas:
+    "amount chosen"
+    "contact contact";
+  grid-template-columns: 50% 45%;
+  grid-row-gap: 5%;
+  grid-column-gap: 3%;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+}
+
+.formCard h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  padding-left: 4%;
+}
+
+.btn-sub {
+  background: #003cff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  border: none;
+  padding: 1.5% 4%;
+  justify-content: end;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-sub:hover {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #003cff;
+  color: #003cff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  padding: 1.5% 4%;
+  justify-content: end;
+  cursor: pointer;
+}
+
+.item1-formdown {
+  grid-area: lastname;
+}
+.item2-formdown {
+  grid-area: firstname;
+}
+.item3-formdown {
+  grid-area: patronymic;
+}
+.item4-formdown {
+  grid-area: item;
+}
+.item5-formdown {
+  grid-area: email;
+}
+.item6-formdown {
+  grid-area: date;
+}
+.item7-formdown {
+  grid-area: passports;
+}
+.item8-formdown {
+  grid-area: passportn;
+}
+
+.content-form {
+  display: grid;
+  grid-template-areas:
+    "lastname firstname patronymic item"
+    "email date passports passportn";
+  grid-template-columns: 26% 26% 26% 26%;
+  grid-template-rows: 60% 60%;
+  padding: 0% 2%;
+}
+
+.btn-form {
+  text-align: right;
+  padding-bottom: 5%;
+  padding-right: 2%;
+  padding-top: 2%;
+}
+
+.content-form p {
+  color: red;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+}
+
+.content-form label span {
+  color: red;
+}
+
+.item2-form p {
+  color: red;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.invalid {
+  border: 2px solid red !important;
+  background-image: url("/public/assets/error.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 97% 5px !important;
+}
+
+.check {
+  background-image: url("/public/assets/check.svg") !important;
+  background-repeat: no-repeat !important;
+  background-position: 97% 7px !important;
+}
+
+.formCard select {
+  outline: 0;
+  border: 2px solid #5b35d5;
+}
+
+.item4-formdown select {
+  background: #f9f5e3;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  padding: 3%;
+  width: 82%;
+}
+
+.support-form p {
+  color: red;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  margin: 0;
+}
+
+.formCard svg {
+  padding-left: 44%;
+  padding-right: 40%;
+  padding-top: 7%;
+  padding-bottom: 7%;
+}
+
+.max-min {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4%;
+}
+
+.range {
+  display: flex;
+  justify-content: center;
+}
+
+.range input {
+  -webkit-appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 90%;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #5b35d5;
+  height: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -10px; /* Centers thumb on the track */
+  background-color: #5b35d5;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+
+/* offer */
+
+.item1-offer {
+  grid-area: offer1;
+
+  background: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.08), 0px 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 28px;
+  margin-right: 2%;
+}
+
+.offer-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.offer-grid p {
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 5%;
+  margin-right: 5%;
+  line-height: 112%;
+  color: #1c1c1e;
+  text-align: center;
+}
+
+.surpise-img {
+  padding-left: 15%;
+  padding-top: 10%;
+}
+
+.btn-offer {
+  background: #003cff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 112%;
+  border: none;
+  padding: 4% 17%;
+  cursor: pointer;
+  transition: 0.5s;
+  margin-top: 20%;
+  margin-left: 24%;
+  margin-bottom: 14%;
+}
+
+.btn-offer:hover {
+  background: #ffffff;
+  border: 1px solid #003cff;
+  color: #003cff;
+}
+
+/* result */
+.result h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 112%;
+  color: #1c1c1e;
+}
+
+.result p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 112%;
+  color: #4f5665;
+  padding: 1% 4%;
+}
+
+.result {
+  border: 1px solid #5b35d5;
+  border-radius: 10px;
+  padding: 4% 15%;
+}

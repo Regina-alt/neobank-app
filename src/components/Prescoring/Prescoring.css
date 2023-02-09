@@ -1,0 +1,39 @@
+/* prescoring */
+.title-pres {
+  margin-top: 4%;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 147.4%;
+  text-align: center;
+}
+
+.item1-steps {
+  grid-area: first;
+}
+
+.item2-steps {
+  grid-area: second;
+}
+
+.item3-steps {
+  grid-area: third;
+}
+
+.grid-steps {
+  display: grid;
+  grid-template-areas: "first second third";
+  grid-template-columns: 31% 31% 31%;
+  grid-row-gap: 10%;
+  grid-column-gap: 3%;
+  justify-content: center;
+  margin-top: 2%;
+  overflow: hidden;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 147.4%;
+}
+
+.grid-steps img {
+  width: 90%;
+}

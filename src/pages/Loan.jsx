@@ -1,7 +1,7 @@
 import React from "react";
-import About from "../components/About";
-import Apply from "../components/Apply";
-import Prescoring from "../components/Prescoring";
+import About from "../components/About/About";
+import Apply from "../components/Apply/Apply";
+import Prescoring from "../components/Prescoring/Prescoring";
 
 function Loan() {
   return (

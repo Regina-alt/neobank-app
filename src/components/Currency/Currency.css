@@ -1,0 +1,186 @@
+.currency-main {
+  background: linear-gradient(
+      358.2deg,
+      rgba(178, 178, 178, 0.8) 8.06%,
+      rgba(178, 178, 178, 0) 67.93%
+    ),
+    rgba(244, 244, 244, 0.9);
+  mix-blend-mode: normal;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08),
+    0px 2px 4px rgba(187, 187, 187, 0.2);
+  border-radius: 28px;
+  margin-top: 5%;
+}
+
+.item1-currency {
+  grid-area: menu;
+}
+.item2-currency {
+  grid-area: main;
+}
+.item3-currency {
+  grid-area: footer;
+}
+.item4-currency {
+  grid-area: header;
+}
+
+.grid-currency {
+  display: grid;
+  grid-template-areas:
+    "menu main"
+    "footer header";
+  grid-template-columns: 60% 33%;
+  overflow: hidden;
+
+  grid-column-gap: 7%;
+}
+
+.currency-title {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 50px;
+  color: #1c1c1e;
+  padding: 5%;
+}
+
+.update {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 50px;
+  color: #000000;
+  width: 100%;
+  padding-top: 8.5%;
+}
+
+.subtitle-currency {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin: 0;
+  padding-left: 5%;
+}
+
+.money {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  margin: 0;
+  padding-left: 5%;
+}
+
+.gray {
+  color: #808080;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0;
+  padding-left: 5%;
+}
+
+.all_courses {
+  margin-top: 6%;
+  margin-left: 5%;
+  margin-bottom: 4%;
+}
+
+.course {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 112%;
+  color: #ffffff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.course:hover {
+  color: #020202;
+}
+
+.dom {
+  padding-left: 50%;
+  padding-top: 16%;
+}
+
+.currency-data {
+  display: flex;
+  width: 420px;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 2%;
+}
+
+@media screen and (max-width: 1300px) {
+    .main-currency th {
+      padding-right: 15px;
+      padding-bottom: 32px;
+    }
+  
+    .dom {
+      padding-left: 35%;
+      padding-top: 16%;
+    }
+  }
+  
+  @media screen and (max-width: 920px) {
+  
+    .grid-currency {
+      grid-template-areas:
+        "menu header"
+        "footer footer"
+        "main main";
+      grid-template-rows: repeat(3, auto);
+      grid-template-columns: repeat(2, auto);
+      grid-gap: 2%;
+    }
+  
+    .update {
+      font-size: 14px;
+      padding-top: 0;
+      padding-left: 5%;
+      padding-bottom: 5%;
+    }
+  
+    .currency-data {
+      font-size: 16px;
+    }
+  
+    .dom {
+      padding-left: 20%;
+      padding-top: 15%;
+      padding-bottom: 10%;
+    }
+  
+    .dom svg {
+      width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 500px) {
+    .currency-title {
+      font-size: 26px;
+    }
+  
+    .currency-data {
+      display: flex;
+      width: 250px;
+    }
+    .money {
+      font-size: 14px;
+      padding-left: 3%;
+    }
+  
+    .gray {
+      font-size: 14px;
+      padding-left: 3%;
+    }
+  
+    .update {
+      font-size: 14px;
+      width: 80%;
+      padding-top: 10%;
+    }
+  }
+  

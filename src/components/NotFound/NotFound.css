@@ -1,0 +1,52 @@
+.item1-notfo {
+  grid-area: text404;
+  padding-top: 30%;
+}
+
+.item1-notfo h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 112%;
+  color: #1c1c1e;
+}
+
+.item1-notfo p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 112%;
+  padding-bottom: 5%;
+}
+
+.item2-notfo {
+  grid-area: img;
+}
+
+.notfound-grid {
+  display: grid;
+  grid-template-areas: "text404 img";
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 5%;
+}
+
+.notfound-grid a {
+  background: #003cff;
+  border-radius: 8px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 112%;
+  border: none;
+  padding: 2% 15%;
+  justify-content: end;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.notfound-grid a:hover {
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #003cff;
+  color: #003cff;
+}

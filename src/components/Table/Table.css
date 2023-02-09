@@ -1,0 +1,15 @@
+.payment_table {
+  width: 100%;
+}
+
+.payment_table th,
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 2%;
+}
+
+.payment_table td {
+  font-weight: 500;
+  color: #1a202c;
+  font-size: 14px;
+}

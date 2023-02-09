@@ -1,90 +1,4 @@
 @media screen and (max-width: 1300px) {
-  .topnav ul {
-    display: none;
-  }
-  .topnav .btn-bank {
-    display: none;
-  }
-
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-
-  .topnav.responsive {
-    position: relative;
-  }
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav.responsive ul {
-    display: block;
-    position: absolute;
-    right: -10px;
-    padding: 10px 20px;
-    background: #fbfbff;
-    width: 137px;
-    border-radius: 15px;
-    text-align: left;
-    margin: 0;
-    transition: 0.5s;
-    margin-top: 2%;
-    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08),
-      0px 2px 4px rgba(187, 187, 187, 0.2);
-  }
-  .topnav.responsive li {
-    margin-bottom: 5%;
-    margin-top: 5%;
-  }
-
-  .topnav.responsive .btn-bank-menu {
-    float: none;
-    display: block;
-    text-align: left;
-    text-decoration: none;
-    color: #f5f4ff;
-    border: 1px solid #003cff;
-    padding: 16px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 112%;
-    background: #003cff;
-    cursor: pointer;
-    border-radius: 16px;
-  }
-
-  .grid-container {
-    grid-template-areas:
-      "text1 text1 "
-      "card1 card2 "
-      "card3 card4 ";
-    text-align: center;
-  }
-
-  .features {
-    padding-top: 4%;
-  }
-
-  .features li {
-    padding-left: 10%;
-  }
-
-  .main-currency th {
-    padding-right: 15px;
-    padding-bottom: 32px;
-  }
-
-  .dom {
-    padding-left: 35%;
-    padding-top: 16%;
-  }
-
-  .btn-title {
-    margin-bottom: 2%;
-  }
 
   .support form {
     text-align: center;
@@ -114,71 +28,7 @@
 }
 
 @media screen and (max-width: 920px) {
-  .container {
-    max-width: 920px;
-  }
 
-  .grid-container {
-    grid-gap: 2%;
-    grid-template-rows: 250px 150px 150px;
-  }
-
-  .btn-title {
-    font-size: 14px;
-  }
-
-  .grid-container img {
-    width: 80%;
-  }
-
-  .grid-container p {
-    font-size: 40px;
-  }
-
-  .grid-features {
-    grid-template-areas:
-      "main main"
-      "menu menu";
-  }
-
-  .features svg {
-    padding-top: 2%;
-  }
-
-  .features-title {
-    font-size: 30px;
-  }
-
-  .grid-currency {
-    grid-template-areas:
-      "menu header"
-      "footer footer"
-      "main main";
-    grid-template-rows: repeat(3, auto);
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 2%;
-  }
-
-  .update {
-    font-size: 14px;
-    padding-top: 0;
-    padding-left: 5%;
-    padding-bottom: 5%;
-  }
-
-  .currency-data {
-    font-size: 16px;
-  }
-
-  .dom {
-    padding-left: 20%;
-    padding-top: 15%;
-    padding-bottom: 10%;
-  }
-
-  .dom svg {
-    width: 50%;
-  }
 
   .support form {
     text-align: center;
@@ -205,27 +55,6 @@
     margin-top: 20px;
     margin-left: -164px;
     background-position: 13px;
-  }
-
-  footer {
-    height: 462px;
-    margin-top: 10%;
-  }
-
-  footer img {
-    padding: 35px 0 0 15%;
-  }
-
-  .phone {
-    font-size: 16px;
-    padding-right: 13%;
-    bottom: 14%;
-  }
-
-  .info {
-    font-size: 12px;
-    bottom: 16%;
-    padding-right: 13%;
   }
 
   .apply-title {
@@ -388,45 +217,6 @@
     max-width: 500px;
   }
 
-  .grid-container p {
-    font-size: 32px;
-  }
-
-  .grid-container {
-    grid-template-rows: 250px 120px 120px;
-  }
-
-  .grid-container img {
-    width: 100%;
-  }
-
-  .features li {
-    padding-left: 19%;
-  }
-
-  .currency-title {
-    font-size: 26px;
-  }
-
-  .currency-data {
-    display: flex;
-    width: 250px;
-  }
-  .money {
-    font-size: 14px;
-    padding-left: 3%;
-  }
-
-  .gray {
-    font-size: 14px;
-    padding-left: 3%;
-  }
-
-  .update {
-    font-size: 14px;
-    width: 80%;
-    padding-top: 10%;
-  }
 
   .title-map {
     font-size: 26px;
@@ -464,37 +254,6 @@
     margin-top: 20px;
     margin-left: -64px;
     background-position: 13px;
-  }
-
-  footer img {
-    padding: 30px 0 0 10%;
-  }
-
-  .phone {
-    padding-right: 10%;
-    bottom: 14%;
-  }
-
-  .info {
-    bottom: 16%;
-    padding-right: 10%;
-  }
-
-  .links-footer {
-    padding-left: 9%;
-    padding-right: 9%;
-    padding-top: 5%;
-  }
-
-  .line {
-    max-width: 75%;
-    margin-left: 10%;
-  }
-
-  .text {
-    width: 75%;
-    margin-left: 10%;
-    width: 80%;
   }
 
   .grid-apply {

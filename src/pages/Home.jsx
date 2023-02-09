@@ -1,10 +1,10 @@
 import React from "react";
-import Currency from "../components/Currency";
-import Features from "../components/Features";
-import Title from "../components/Title";
-import Map from "../components/Map";
-import News from "../components/News";
-import Support from "../components/Support";
+import Currency from "../components/Currency/Currency";
+import Features from "../components/Features/Features";
+import Title from "../components/Title/Title";
+import Map from "../components/Map/Map";
+import News from "../components/News/News";
+import Support from "../components/Support/Support";
 
 function Home() {
   return (

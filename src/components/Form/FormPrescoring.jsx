@@ -1,3 +1,4 @@
+import "./Form.css";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Audio } from "react-loader-spinner";
@@ -6,7 +7,7 @@ import Offer from "./Offer";
 function FormPrescoring() {
   const [formStep, setFormStep] = useState(0);
   let [offers, setOffer] = useState({});
-  localStorage.setItem("formStep",formStep);
+  localStorage.setItem("formStep", formStep);
 
   let [loading, setLoading] = useState(false);
   const {
@@ -247,10 +248,7 @@ function FormPrescoring() {
             </>
           )}
 
-          {formStep === 1 && (
-           <Offer offers={offers} />
-          )}
-          
+          {formStep === 1 && <Offer offers={offers} />}
         </>
       )}
     </div>
